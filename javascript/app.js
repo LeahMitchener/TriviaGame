@@ -49,3 +49,18 @@ var questions = [{
     answers: ["Will was brought back alive Joyce and Hopper entered the Upside Down", "Jonathan was killed inside the Upside Down", "Jonathan, Steve, and Nancy fought the creature at Jonathan's house"]
     correctAnswer: "Jonathan, Steve, and Nancy fought the creature at Jonathan's house"
 }, {
+
+var game = {
+    correct: 0,
+    incorrect: 0,
+    counter: 120,
+    countdown: function(){
+        game.counter--;
+        $("#counter").html(game.counter);
+        if(game.counter<=0)(
+            console.log("Time's Up!");
+            game.done();
+        )
+    },
+    start: function()
+}
