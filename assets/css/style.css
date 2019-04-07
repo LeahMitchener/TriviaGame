@@ -1,0 +1,22 @@
+.jumbotron {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  font-weight: bold;
+  float: center;
+  text-align: center;
+  background: black;
+}
+
+body {
+  background-image: url("500109-pixel_art-Stranger_Things-simple-simple_background-minimalism-748x421.jpg");
+  background-color: #bedadb;
+  background-position: fixed;
+  margin: 0;
+  background-repeat: no-repeat;
+}
+
+.questionsContainer {
+  float: center;
+  padding-left: auto;
+  padding-right: auto;
+}
